@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ColorListItemProps: Identifiable {
+struct ColorCardItem: Identifiable {
     enum Size: String, CaseIterable {
         case small, full
     }

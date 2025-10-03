@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AE2F6FB2E8FD43900C78E3E /* ColorListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F6F22E8FD43900C78E3E /* ColorListItem.swift */; };
-		2AE2F6FC2E8FD43900C78E3E /* ColorListItemProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F6F42E8FD43900C78E3E /* ColorListItemProps.swift */; };
+		2AE2F6FB2E8FD43900C78E3E /* ColorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F6F22E8FD43900C78E3E /* ColorCard.swift */; };
+		2AE2F6FC2E8FD43900C78E3E /* ColorCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F6F42E8FD43900C78E3E /* ColorCardItem.swift */; };
 		2AE2F6FD2E8FD43900C78E3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F6F82E8FD43900C78E3E /* ContentView.swift */; };
 		2AE2F6FE2E8FD43900C78E3E /* HairTryAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F6F92E8FD43900C78E3E /* HairTryAIApp.swift */; };
 		2AE2F6FF2E8FD43900C78E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE2F6F72E8FD43900C78E3E /* Assets.xcassets */; };
@@ -18,12 +18,14 @@
 		2AE2F7092E907CAF00C78E3E /* MediumButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7082E907CAF00C78E3E /* MediumButtonStyle.swift */; };
 		2AE2F70B2E907CD400C78E3E /* LargeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F70A2E907CD400C78E3E /* LargeButtonStyle.swift */; };
 		2AE2F70D2E907CE300C78E3E /* XLargeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F70C2E907CE300C78E3E /* XLargeButtonStyle.swift */; };
+		2AE2F70F2E907E1300C78E3E /* StyleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F70E2E907E1300C78E3E /* StyleCard.swift */; };
+		2AE2F7112E9080A100C78E3E /* StyleCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7102E9080A100C78E3E /* StyleCardItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AD343562E8FB01A00C8D680 /* HairTryAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairTryAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AE2F6F22E8FD43900C78E3E /* ColorListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListItem.swift; sourceTree = "<group>"; };
-		2AE2F6F42E8FD43900C78E3E /* ColorListItemProps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListItemProps.swift; sourceTree = "<group>"; };
+		2AE2F6F22E8FD43900C78E3E /* ColorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCard.swift; sourceTree = "<group>"; };
+		2AE2F6F42E8FD43900C78E3E /* ColorCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCardItem.swift; sourceTree = "<group>"; };
 		2AE2F6F72E8FD43900C78E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE2F6F82E8FD43900C78E3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AE2F6F92E8FD43900C78E3E /* HairTryAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairTryAIApp.swift; sourceTree = "<group>"; };
@@ -33,6 +35,8 @@
 		2AE2F7082E907CAF00C78E3E /* MediumButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumButtonStyle.swift; sourceTree = "<group>"; };
 		2AE2F70A2E907CD400C78E3E /* LargeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButtonStyle.swift; sourceTree = "<group>"; };
 		2AE2F70C2E907CE300C78E3E /* XLargeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLargeButtonStyle.swift; sourceTree = "<group>"; };
+		2AE2F70E2E907E1300C78E3E /* StyleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCard.swift; sourceTree = "<group>"; };
+		2AE2F7102E9080A100C78E3E /* StyleCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCardItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +71,8 @@
 			children = (
 				2AE2F7072E907C8D00C78E3E /* ButtonStyles */,
 				2AE2F7002E8FD47500C78E3E /* SelectPhotoContextMenu.swift */,
-				2AE2F6F22E8FD43900C78E3E /* ColorListItem.swift */,
+				2AE2F6F22E8FD43900C78E3E /* ColorCard.swift */,
+				2AE2F70E2E907E1300C78E3E /* StyleCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -75,7 +80,8 @@
 		2AE2F6F52E8FD43900C78E3E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2AE2F6F42E8FD43900C78E3E /* ColorListItemProps.swift */,
+				2AE2F6F42E8FD43900C78E3E /* ColorCardItem.swift */,
+				2AE2F7102E9080A100C78E3E /* StyleCardItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,13 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE2F7112E9080A100C78E3E /* StyleCardItem.swift in Sources */,
 				2AE2F70D2E907CE300C78E3E /* XLargeButtonStyle.swift in Sources */,
 				2AE2F7092E907CAF00C78E3E /* MediumButtonStyle.swift in Sources */,
 				2AE2F70B2E907CD400C78E3E /* LargeButtonStyle.swift in Sources */,
 				2AE2F7062E8FF10700C78E3E /* SmallButtonStyle.swift in Sources */,
-				2AE2F6FB2E8FD43900C78E3E /* ColorListItem.swift in Sources */,
+				2AE2F6FB2E8FD43900C78E3E /* ColorCard.swift in Sources */,
+				2AE2F70F2E907E1300C78E3E /* StyleCard.swift in Sources */,
 				2AE2F7012E8FD49300C78E3E /* SelectPhotoContextMenu.swift in Sources */,
-				2AE2F6FC2E8FD43900C78E3E /* ColorListItemProps.swift in Sources */,
+				2AE2F6FC2E8FD43900C78E3E /* ColorCardItem.swift in Sources */,
 				2AE2F7032E8FDC3400C78E3E /* ImagePicker.swift in Sources */,
 				2AE2F6FD2E8FD43900C78E3E /* ContentView.swift in Sources */,
 				2AE2F6FE2E8FD43900C78E3E /* HairTryAIApp.swift in Sources */,

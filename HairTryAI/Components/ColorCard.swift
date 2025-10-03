@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct ColorListItem: View {
+struct ColorCard: View {
     
     // MARK: - Properties
-    let item: ColorListItemProps
+    let item: ColorCardItem
     
     // MARK: - Body
     var body: some View {
@@ -27,8 +27,9 @@ struct ColorListItem: View {
     }
 }
 
+// MARK: - Preview
 #Preview {
     VStack {
-        ColorListItem(item: .init(size: .small, color: .cyan, name: "Cyan"))
+        ColorCard(item: .init(size: .small, color: .cyan, name: "Cyan"))
     }
 }
