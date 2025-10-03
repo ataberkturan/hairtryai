@@ -14,6 +14,10 @@
 		2AE2F6FF2E8FD43900C78E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE2F6F72E8FD43900C78E3E /* Assets.xcassets */; };
 		2AE2F7012E8FD49300C78E3E /* SelectPhotoContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7002E8FD47500C78E3E /* SelectPhotoContextMenu.swift */; };
 		2AE2F7032E8FDC3400C78E3E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7022E8FDC2F00C78E3E /* ImagePicker.swift */; };
+		2AE2F7062E8FF10700C78E3E /* SmallButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7052E8FF10200C78E3E /* SmallButtonStyle.swift */; };
+		2AE2F7092E907CAF00C78E3E /* MediumButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7082E907CAF00C78E3E /* MediumButtonStyle.swift */; };
+		2AE2F70B2E907CD400C78E3E /* LargeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F70A2E907CD400C78E3E /* LargeButtonStyle.swift */; };
+		2AE2F70D2E907CE300C78E3E /* XLargeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F70C2E907CE300C78E3E /* XLargeButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		2AE2F6F92E8FD43900C78E3E /* HairTryAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairTryAIApp.swift; sourceTree = "<group>"; };
 		2AE2F7002E8FD47500C78E3E /* SelectPhotoContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPhotoContextMenu.swift; sourceTree = "<group>"; };
 		2AE2F7022E8FDC2F00C78E3E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2AE2F7052E8FF10200C78E3E /* SmallButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButtonStyle.swift; sourceTree = "<group>"; };
+		2AE2F7082E907CAF00C78E3E /* MediumButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumButtonStyle.swift; sourceTree = "<group>"; };
+		2AE2F70A2E907CD400C78E3E /* LargeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButtonStyle.swift; sourceTree = "<group>"; };
+		2AE2F70C2E907CE300C78E3E /* XLargeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLargeButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 		2AE2F6F32E8FD43900C78E3E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				2AE2F7072E907C8D00C78E3E /* ButtonStyles */,
 				2AE2F7002E8FD47500C78E3E /* SelectPhotoContextMenu.swift */,
 				2AE2F6F22E8FD43900C78E3E /* ColorListItem.swift */,
 			);
@@ -98,6 +107,17 @@
 				2AE2F7022E8FDC2F00C78E3E /* ImagePicker.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2AE2F7072E907C8D00C78E3E /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2F70C2E907CE300C78E3E /* XLargeButtonStyle.swift */,
+				2AE2F70A2E907CD400C78E3E /* LargeButtonStyle.swift */,
+				2AE2F7052E8FF10200C78E3E /* SmallButtonStyle.swift */,
+				2AE2F7082E907CAF00C78E3E /* MediumButtonStyle.swift */,
+			);
+			path = ButtonStyles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE2F70D2E907CE300C78E3E /* XLargeButtonStyle.swift in Sources */,
+				2AE2F7092E907CAF00C78E3E /* MediumButtonStyle.swift in Sources */,
+				2AE2F70B2E907CD400C78E3E /* LargeButtonStyle.swift in Sources */,
+				2AE2F7062E8FF10700C78E3E /* SmallButtonStyle.swift in Sources */,
 				2AE2F6FB2E8FD43900C78E3E /* ColorListItem.swift in Sources */,
 				2AE2F7012E8FD49300C78E3E /* SelectPhotoContextMenu.swift in Sources */,
 				2AE2F6FC2E8FD43900C78E3E /* ColorListItemProps.swift in Sources */,
