@@ -20,6 +20,14 @@
 		2AE2F70D2E907CE300C78E3E /* XLargeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F70C2E907CE300C78E3E /* XLargeButtonStyle.swift */; };
 		2AE2F70F2E907E1300C78E3E /* StyleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F70E2E907E1300C78E3E /* StyleCard.swift */; };
 		2AE2F7112E9080A100C78E3E /* StyleCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7102E9080A100C78E3E /* StyleCardItem.swift */; };
+		2AE2F7132E91006200C78E3E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7122E91005000C78E3E /* HomeView.swift */; };
+		2AE2F7152E91049800C78E3E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7142E91049500C78E3E /* Router.swift */; };
+		2AE2F7182E91060800C78E3E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7172E91060800C78E3E /* View+Extensions.swift */; };
+		2AE2F71A2E91066100C78E3E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7192E91066100C78E3E /* SettingsView.swift */; };
+		2AE2F71C2E91066B00C78E3E /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F71B2E91066B00C78E3E /* PreviewView.swift */; };
+		2AE2F71E2E91067800C78E3E /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F71D2E91067800C78E3E /* ColorsView.swift */; };
+		2AE2F7202E91067F00C78E3E /* StylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F71F2E91067F00C78E3E /* StylesView.swift */; };
+		2AE2F7232E91070C00C78E3E /* RouterViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2F7222E91070C00C78E3E /* RouterViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,14 @@
 		2AE2F70C2E907CE300C78E3E /* XLargeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLargeButtonStyle.swift; sourceTree = "<group>"; };
 		2AE2F70E2E907E1300C78E3E /* StyleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCard.swift; sourceTree = "<group>"; };
 		2AE2F7102E9080A100C78E3E /* StyleCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCardItem.swift; sourceTree = "<group>"; };
+		2AE2F7122E91005000C78E3E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2AE2F7142E91049500C78E3E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		2AE2F7172E91060800C78E3E /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		2AE2F7192E91066100C78E3E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2AE2F71B2E91066B00C78E3E /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		2AE2F71D2E91067800C78E3E /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		2AE2F71F2E91067F00C78E3E /* StylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesView.swift; sourceTree = "<group>"; };
+		2AE2F7222E91070C00C78E3E /* RouterViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +105,11 @@
 		2AE2F6F62E8FD43900C78E3E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2AE2F7122E91005000C78E3E /* HomeView.swift */,
+				2AE2F7192E91066100C78E3E /* SettingsView.swift */,
+				2AE2F71B2E91066B00C78E3E /* PreviewView.swift */,
+				2AE2F71D2E91067800C78E3E /* ColorsView.swift */,
+				2AE2F71F2E91067F00C78E3E /* StylesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,6 +117,8 @@
 		2AE2F6FA2E8FD43900C78E3E /* HairTryAI */ = {
 			isa = PBXGroup;
 			children = (
+				2AE2F7212E91070200C78E3E /* ViewModifiers */,
+				2AE2F7162E9105F400C78E3E /* Extensions */,
 				2AE2F7042E8FDC4900C78E3E /* Helpers */,
 				2AE2F6F52E8FD43900C78E3E /* Models */,
 				2AE2F6F32E8FD43900C78E3E /* Components */,
@@ -110,6 +133,7 @@
 		2AE2F7042E8FDC4900C78E3E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				2AE2F7142E91049500C78E3E /* Router.swift */,
 				2AE2F7022E8FDC2F00C78E3E /* ImagePicker.swift */,
 			);
 			path = Helpers;
@@ -124,6 +148,22 @@
 				2AE2F7082E907CAF00C78E3E /* MediumButtonStyle.swift */,
 			);
 			path = ButtonStyles;
+			sourceTree = "<group>";
+		};
+		2AE2F7162E9105F400C78E3E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2F7172E91060800C78E3E /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AE2F7212E91070200C78E3E /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2F7222E91070C00C78E3E /* RouterViewModifier.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,17 +238,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE2F71E2E91067800C78E3E /* ColorsView.swift in Sources */,
 				2AE2F7112E9080A100C78E3E /* StyleCardItem.swift in Sources */,
 				2AE2F70D2E907CE300C78E3E /* XLargeButtonStyle.swift in Sources */,
+				2AE2F7132E91006200C78E3E /* HomeView.swift in Sources */,
 				2AE2F7092E907CAF00C78E3E /* MediumButtonStyle.swift in Sources */,
 				2AE2F70B2E907CD400C78E3E /* LargeButtonStyle.swift in Sources */,
+				2AE2F7232E91070C00C78E3E /* RouterViewModifier.swift in Sources */,
+				2AE2F7202E91067F00C78E3E /* StylesView.swift in Sources */,
 				2AE2F7062E8FF10700C78E3E /* SmallButtonStyle.swift in Sources */,
 				2AE2F6FB2E8FD43900C78E3E /* ColorCard.swift in Sources */,
 				2AE2F70F2E907E1300C78E3E /* StyleCard.swift in Sources */,
 				2AE2F7012E8FD49300C78E3E /* SelectPhotoContextMenu.swift in Sources */,
+				2AE2F71A2E91066100C78E3E /* SettingsView.swift in Sources */,
 				2AE2F6FC2E8FD43900C78E3E /* ColorCardItem.swift in Sources */,
+				2AE2F7152E91049800C78E3E /* Router.swift in Sources */,
+				2AE2F71C2E91066B00C78E3E /* PreviewView.swift in Sources */,
 				2AE2F7032E8FDC3400C78E3E /* ImagePicker.swift in Sources */,
 				2AE2F6FD2E8FD43900C78E3E /* ContentView.swift in Sources */,
+				2AE2F7182E91060800C78E3E /* View+Extensions.swift in Sources */,
 				2AE2F6FE2E8FD43900C78E3E /* HairTryAIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

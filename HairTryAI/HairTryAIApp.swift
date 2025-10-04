@@ -12,6 +12,7 @@ struct HairTryAIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .router()
         }
     }
 }
